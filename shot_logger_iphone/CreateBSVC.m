@@ -1,6 +1,20 @@
+/*
+ 
+ This file is pulled from the source code 
+ for the iPhone app: Basketball Shot Logger.
+ 
+ It contains the code used to handle the
+ functionality of adding shots to the 
+ court diagram (see screenshot).
+ 
+ 
+ */
+
+
+
 //
 //  CreateBSVC.m
-//  Personal Box Score
+//  Basketball Shot Logger
 //
 //  Created by Joe Hopkins on 5/3/12.
 //  Copyright (c) 2012 __DoubleTap Software__. All rights reserved.
