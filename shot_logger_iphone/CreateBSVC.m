@@ -27,12 +27,6 @@
 
 @implementation CreateBSVC
 
-NSMutableArray *markers;
-BoxScore *boxScore;
-MarkerType currentMarkerType;
-History *history;
-
-
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
