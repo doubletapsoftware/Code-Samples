@@ -4,11 +4,11 @@
 
 	It contains the definition for instantiating Square objects
 	which are used to represents positions on the chess board. The code
-	handles drawing the pieces at their positions, handling square highlights
-	like available moves, past moves, and check indecators, as well as handling
-	animations all while repecting the current game settings for piece styles.
+	handles drawing the pieces at their positions along with handling square highlights
+	like available moves, past moves, and check indecators. The code also handles
+	animations all while respecting the current game settings for piece styles.
 	
-	The code base uses arrays to reduce the need for if/else statements, for loops, and
+	The code base uses arrays to reduce the need for if/else statements, for-loops, and
 	unneccessary helper functions.
 	
 	
@@ -36,10 +36,10 @@ function Square(p, t) {
 
 
 	/**
-	 * Draws the square to the provided contexts based on its properties and whose turn
+	 * Draws the square to the provided contexts based on its properties and whose turn it is.
 	 *
-	 * @param {context} context Context object for drawing all pieces
-	 * @param {context} reflectionContext Context object that is underneith for drawing reflections under the board
+	 * @param {context} context 2D Context for the HTML canvas element (used for pieces)
+	 * @param {context} reflectionContext 2D Context for the HTML canvas element (used for piece reflections)
 	 * @param {integer} currentPlayer Whose turn it is, black or white (ChessTable.KWhite: 0, ChessTable.KBlack: 1)
 	 *
 	*/
